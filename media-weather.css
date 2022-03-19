@@ -1,0 +1,204 @@
+@media (max-width:1200px){
+    .container{
+        max-width: 1000px;
+        box-sizing: border-box;
+    }
+    .sec-1-div{
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-1-main{align-items: center;}
+    .sec-1-body > div:nth-child(2){
+        flex-wrap: wrap;
+    }
+    .sec-1-body > div:nth-child(2) > div{
+        flex: 1 1 40%;
+    }
+    .sec-2-div{
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-2-main{align-items: center;}
+    .sec-2-body > div:nth-child(2){
+        flex-wrap: wrap;
+    }
+    .sec-2-body > div:nth-child(2) > div{
+        flex: 1 1 40%;
+    }
+}
+@media (max-width:950px){
+    .container{
+        max-width: 700px;
+    }
+    .sec-1-main{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sec-1-gr{
+        width: 100%;
+    }
+    .sec-1-temp{
+        width: 100%;
+    }
+    .sec-1-gr div:nth-child(1){
+        width: 100%;
+        justify-content: space-between;
+    }
+    .sec-1-gr div:nth-child(1) span:nth-child(2){
+        width: 250px;
+        height: 250px;
+    }
+    .per-overflow{
+        left: 60%;
+    }
+    .per-overflow span{
+        flex-direction: column;
+        gap: 0;
+    }
+    .sec-2-main{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sec-2-gr{
+        width: 100%;
+    }
+    .sec-2-temp{
+        width: 100%;
+    }
+    .sec-2-gr div:nth-child(1){
+        width: 100%;
+        justify-content: space-between;
+    }
+    .sec-2-gr div:nth-child(1) span:nth-child(2){
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+@media (max-width:720px){
+
+    .container{
+        max-width: 450px;
+    }
+    .sec-1-main{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sec-1-gr{
+        width: 100%;
+    }
+    .sec-1-temp{
+        width: 100%;
+    }
+    .sec-1-gr div:nth-child(1){
+        width: 100%;
+        justify-content: space-between;
+    }
+    .sec-1-gr div:nth-child(1) span:nth-child(2){
+        width: 130px;
+        height: 130px;
+    }
+    .sec-1-body > div:nth-child(1) > button{
+        display: none;
+    }
+    .sec-1-body > div:nth-child(2){
+        flex-direction: column;
+    }
+    .sec-1-body > div:nth-child(2) > div{
+        flex: 1 1 auto;
+        width: 100%;
+    }
+    .sec-1-temp div b{
+        right: 10px;
+    }
+    .sec-1-temp{
+        padding: 10px;
+    }
+    .per-overflow{
+        left: 50%;
+    }
+    .per-overflow span label{
+        padding: 5px;
+        font-size: 16px;
+    }
+    .head-1-div div:nth-child(1) span{
+        width: 50px !important;
+        height: 50px;
+    }
+    .head-1-div div:nth-child(1){
+        gap: 0;
+    }
+    .head-1-div div:nth-child(1) span img{
+        width: 34px;
+        height: 20px;
+    }
+
+    .sec-2-main{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sec-2-gr{
+        width: 100%;
+    }
+    .sec-2-temp{
+        width: 100%;
+    }
+    .sec-2-gr div:nth-child(1){
+        width: 100%;
+        justify-content: space-between;
+    }
+    .sec-2-gr div:nth-child(1) span:nth-child(2){
+        width: 130px;
+        height: 130px;
+    }
+    .sec-2-body > div:nth-child(1) > button{
+        display: none;
+    }
+    .sec-2-body > div:nth-child(2){
+        flex-direction: column;
+    }
+    .sec-2-body > div:nth-child(2) > div{
+        flex: 1 1 auto;
+        width: 100%;
+    }
+    .sec-2-temp div b{
+        right: 10px;
+    }
+    .sec-2-temp{
+        padding: 10px;
+    }
+    .head-2-div div:nth-child(1) span{
+        width: 50px !important;
+        height: 50px;
+    }
+    .head-2-div div:nth-child(1){
+        gap: 0;
+    }
+    .head-2-div div:nth-child(1) span img{
+        width: 34px;
+        height: 20px;
+    }
+}
+@media (max-width:450px){
+    body{
+        min-width: 390px;
+    }
+    .container{
+        width: 390px;
+    }
+    .head-1-div div:nth-child(2) select{
+        padding: 3px 5px;
+    }
+    .head-1-div div:nth-child(1) p{
+        font-size: 22px;
+    }
+    .per-overflow{
+        left: 53%;
+    }
+    .head-2-div div:nth-child(2) select{
+        padding: 3px 5px;
+    }
+    .head-2-div div:nth-child(1) p{
+        font-size: 22px;
+    }
+}
